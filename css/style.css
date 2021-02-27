@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    background-image: url("photo-01.png"); 
+    background-color: #cccccc;  
+    background-position: center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    text-align: center;
+    background-size: cover; 
+}
+
+.page-nav {
+    background-color: rgb(255, 39, 39);
+    border: 3px solid rgb(255,39,39);
+    opacity: 0.5;
+    border: 1px solid black;    
+    border-radius: 20px; 
+    padding: 10px 20px;
+    
+}
+
+.page-nav h1 {
+    margin: 20px;    
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.9;
+}
+
+.product-container {
+    margin: 24px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: rgb(252, 225, 225);
+    border-radius: 20px; 
+    padding: 10px 20px;
+    
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.product-container img {
+    width: 150px;
+}
+
+.button-install {
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 3px solid #FFDDDD;
+    transition-duration: 0.4s;
+}
+
+.button-install:hover {
+    background-color: #ec0000;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
